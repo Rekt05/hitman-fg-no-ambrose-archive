@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+select {
+  margin: 5px;
+  padding: 5px;
+}
+
+#categoryDiv {
+  margin-top: 10px;
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  display: none;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #f4f4f4;
+}
+
+a:link,
+a:visited {
+  color: blue;      
+}

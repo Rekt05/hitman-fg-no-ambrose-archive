@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Archived Hitman FG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Hitman Archived No Ambrose Fullgame Runs</h1>
+
+<div>
+  <button id="trilogyBtn">Trilogy</button>
+  <button id="s2Btn">Season 2</button>
+</div>
+
+<div id="categoryDiv">
+  <label for="categorySelect">Select Category: </label>
+  <select id="categorySelect"></select>
+
+  <label for="nlpSelect">Select NLP: </label>
+  <select id="nlpSelect">
+    <option value="Hidden" selected>NLP Hidden</option>
+    <option value="Mixed">NLP Shown</option>
+    <option value="Exclusive">NLP Exclusive</option>
+  </select>
+
+  <label for="obsoleteSelect">Show Obsolete Runs: </label>
+<select id="obsoleteSelect">
+  <option value="Hidden" selected>Obsolete Hidden</option>
+  <option value="Shown">Obsolete Shown</option>
+</select>  
+
+</div>
+
+
+<table id="runsTable">
+  <thead>
+  <tr>
+    <th>Rank</th>
+    <th>Player</th>
+    <th>Date</th>
+    <th>Category</th>
+    <th>Time</th>
+    <th>NLP Reason</th>
+    <th>Video</th>
+    <th>Time Calculation</th>
+  </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="scripts.js" type="module"></script>
+</body>
+</html>
