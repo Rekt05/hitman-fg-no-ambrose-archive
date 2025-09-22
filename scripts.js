@@ -105,9 +105,9 @@ filtered.forEach((r, index) => {
   tr.innerHTML = `
     <td>${rank}</td>
     <td>${r.Player}</td>
-    <td>${r.Date}</td>
-    <td>${r.Category}</td>
     <td>${r.Time}</td>
+    <td>${r.Category}</td>
+    <td>${r.Date}</td>
     <td>${r.NLP}</td>
     <td><a href="${r.Link}" target="_blank">Video</a></td>
     <td><a href="${r.TimeCalc}" target="_blank">Time Calculation</a></td>
