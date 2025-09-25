@@ -4,7 +4,7 @@ fetch('runs.json')
   .then(data => {
     runs = data;
     document.getElementById('trilogyBtn').click();
-    nlpSelect.value = 'Hidden';
+    nlpSelect.value = 'Mixed';
     obsoleteSelect.value = 'Hidden';
   });
 
